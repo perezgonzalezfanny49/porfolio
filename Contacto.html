@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Porfolio</title>
+        <meta charset="utf8">
+        <meta name="author" content="Fanny González">
+        <link rel="icon" href="icono.png">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                     <li><a href="index.html">Inicio</a></li> 
+                     <li><a href="Sobremi.html">Sobre mi</a></li>
+                     <li><a href="Porfolio.html">Porfolio</a></li> 
+                     <li><a href="Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div id="contact"> 
+            <h2 class="contactame">Contactar</h2>
+            <form id="formulario">
+                <div>
+                    <label for="para"><b>Para:</b></label>
+                    <input type="text" id="para">
+                </div>
+                <div> 
+                    <label for="temática"><b>Temática</b></label> 
+                    <select name="=Elige un tema" id="temática">
+                        <option selected>--Elige un tema--</option>
+                        <option value="consulta">Consulta</option>
+                        <option value="propuesta">Propuesta</option>
+                        <option value="reporte">Reporte</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div> 
+                <div>
+                    <label for="asunto"><b>Asunto:</b></label>
+                    <input type="text" id="asunto">
+                </div> 
+                <div>
+                    <label for="cuerpo"><b>Cuerpo:</b></label>
+                    <textarea id="cuerpo"></textarea>
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        <div id="iconos"> 
+            <img class="redes" src="twitter.png">
+            <img class="redes" src="instagram.png">
+        </div>
+    </body>
+</html>

@@ -1,0 +1,139 @@
+body {
+      background-image: url(./fondo.jpg);
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+ 
+H1 {
+      font-family: 'Times New Roman', Times, serif;
+      text-align: center;
+      padding-top: 15px ;
+      padding-bottom: 3px;
+  }
+
+H4{
+      text-align: center;
+      padding: 3px;
+  }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  
+  #perfildefoto{
+          margin-top: 5%;
+          background-color: #333;
+          display: inline-block;
+          width: auto;
+          margin-left:5%;
+          margin-right:5%;
+          border-radius: 8px;
+
+        }
+  
+ .pw {
+        border-radius: 8px;
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 2%;
+        margin-right: 2%;
+        width: 29%;
+        box-shadow: 10px 10px 5px rgb(29, 28, 28);
+      } 
+      
+  h1 {
+    margin-top: 8%;
+    font-family: "Courier New", monospace;
+    font-size: 50px;
+    color: black;
+    text-shadow: 1px 1px 2px white;
+  }
+
+    
+.perfil {
+  width: 20%;
+  margin-left: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-right: 2%;
+  border-radius: 8px;
+}
+
+.texto {
+  color:white;
+  font-family: "Courier New";
+  margin-left: 4%;
+  margin-top: 5%;
+  padding-left: 1px;
+  margin-right: 5%;
+}
+
+#contact {
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 10px 10px 5px rgb(29, 28, 28);
+  width: 29%;
+  position: fixed;
+  margin-left: 35%;
+  margin-top: 7%;
+  font-family: "Courier New", monospace;
+}
+
+#formulario{
+    padding: 20px 25px;
+    font-family: "Courier New", monospace;
+}
+
+.contactame {
+  padding: 19px 20px;
+}
+
+.redes {
+  display: inline-block;
+  margin-top: 30%;
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 5%;
+  }
+
+  #iconos {
+    margin-left: 45%;
+    margin-top: 12%;
+  }
+
+  #trabajos{
+    display: center;
+  }
+
+  #iconosper {
+    margin-top: 6%;
+    margin-left: 1%;
+    width: 500%;
+  }
+
+  #contenedor {
+    display: inline-flex ;
+  }
